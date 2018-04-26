@@ -47,6 +47,9 @@ If you discover any security related issues, please email info@sandervanhooft.co
 - [Appstract](https://github.com/appstract/laravel-blade-directives) for blade directive testing methods
 - [All Contributors](../../contributors)
 
+## About Sander van Hooft
+Sander is a web consultant. He regularly publishes helpful Laravel bits on his blog, [sandervanhooft.com](http://www.sandervanhooft.com).
+
 ## License
 
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
