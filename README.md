@@ -20,7 +20,7 @@ composer require sandervanhooft/laravel-blade-nl2br
 
 ``` php
 @nl2br("Hello\n world!")
-// Hello<br> world!
+// Hello<br \> world!
 ```
 
 ### Testing
@@ -44,6 +44,7 @@ If you discover any security related issues, please email info@sandervanhooft.co
 ## Credits
 
 - [Sander van Hooft](https://github.com/sandervanhooft)
+- [Appstract](https://github.com/appstract/laravel-blade-directives) for blade directive testing methods
 - [All Contributors](../../contributors)
 
 ## License

@@ -1,0 +1,51 @@
+{
+    "name": "sandervanhooft/laravel-blade-nl2br",
+    "description": "A Laravel Blade directive for converting newline characters to breaks.",
+    "keywords": [
+        "Sander van Hooft",
+        "laravel-blade-nl2br"
+    ],
+    "homepage": "https://github.com/sandervanhooft/laravel-blade-nl2br",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sander van Hooft",
+            "email": "info@sandervanhooft.com",
+            "homepage": "https://www.sandervanhooft.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "illuminate/support": "^5.5",
+        "php": "^7.1"
+    },
+    "require-dev": {
+        "larapack/dd": "^1.0",
+        "orchestra/testbench": "~3.0",
+        "phpunit/phpunit": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "SanderVanHooft\\BladeNl2Br\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "SanderVanHooft\\Tests\\BladeNl2Br\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "phpunit --coverage-html coverage"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "SanderVanHooft\\BladeNl2Br\\ServiceProvider"
+            ]
+        }
+    }
+}
