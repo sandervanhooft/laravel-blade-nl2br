@@ -43,7 +43,7 @@ If you discover any security related issues, please email info@sandervanhooft.co
 
 ## Credits
 
-- [Sander van Hooft](https://github.com/sandervanhooft)
+- [Sander van Hooft](https://github.com/sandervanhooft) - [www.sandervanhooft.com](https://www.sandervanhooft.com)
 - [Appstract](https://github.com/appstract/laravel-blade-directives) for blade directive testing methods
 - [All Contributors](../../contributors)
 
